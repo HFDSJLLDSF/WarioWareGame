@@ -1,0 +1,50 @@
+[gd_scene format=3 uid="uid://b57dg4qqykuxl"]
+
+[ext_resource type="Texture2D" uid="uid://dku71obkreh3s" path="res://Wariothattuffknuckles.jpg" id="1_fnlyl"]
+
+[node name="Node2D" type="Node2D" unique_id=1218348427]
+
+[node name="Background" type="TextureRect" parent="." unique_id=1305269655]
+offset_left = 14.0
+offset_top = 15.0
+offset_right = 914.0
+offset_bottom = 1059.0
+scale = Vector2(0.578796, 0.57773423)
+texture = ExtResource("1_fnlyl")
+
+[node name="Title" type="RichTextLabel" parent="." unique_id=723272997]
+clip_contents = false
+offset_left = 501.0
+offset_top = 16.0
+offset_right = 1112.0
+offset_bottom = 168.0
+theme_override_constants/outline_size = 40
+theme_override_font_sizes/normal_font_size = 108
+text = "WarioWare"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=2088953658]
+offset_left = 638.0
+offset_top = 208.0
+offset_right = 974.0
+offset_bottom = 579.0
+
+[node name="Start" type="Button" parent="VBoxContainer" unique_id=1939582987]
+layout_mode = 2
+theme_type_variation = &"FlatButton"
+theme_override_constants/outline_size = 14
+theme_override_font_sizes/font_size = 26
+text = "Start Game"
+
+[node name="Settings" type="Button" parent="VBoxContainer" unique_id=604636648]
+layout_mode = 2
+theme_override_constants/outline_size = 14
+theme_override_font_sizes/font_size = 26
+text = "Settings"
+flat = true
+
+[node name="Quit Game" type="Button" parent="VBoxContainer" unique_id=1598843582]
+layout_mode = 2
+theme_override_constants/outline_size = 14
+theme_override_font_sizes/font_size = 26
+text = "Quit"
+flat = true
