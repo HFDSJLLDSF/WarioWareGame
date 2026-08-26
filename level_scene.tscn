@@ -1,3 +1,61 @@
 [gd_scene format=3 uid="uid://byqawndn8ybm1"]
 
+[ext_resource type="Texture2D" uid="uid://dku71obkreh3s" path="res://Wariothattuffknuckles.jpg" id="1_4quuv"]
+[ext_resource type="Script" uid="uid://d35knt7dmq845" path="res://Timer_Screen.gd" id="2_3mivm"]
+[ext_resource type="Texture2D" uid="uid://djb0v5rq114cu" path="res://Wario_Cap.webp" id="2_187gu"]
+
 [node name="level_scene" type="Node2D" unique_id=1731869202]
+metadata/_edit_vertical_guides_ = [0.0]
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=297630231]
+offset_right = 1920.0
+offset_bottom = 1080.0
+scale = Vector2(0.59019125, 0.5940025)
+texture = ExtResource("1_4quuv")
+script = ExtResource("2_3mivm")
+
+[node name="HatContainer" type="HBoxContainer" parent="TextureRect" unique_id=1695471961]
+layout_mode = 0
+offset_left = 611.666
+offset_top = 1.6834984
+offset_right = 4847.666
+offset_bottom = 597.6835
+scale = Vector2(0.30904904, 0.35682875)
+
+[node name="Hat1" type="TextureRect" parent="TextureRect/HatContainer" unique_id=644054024]
+layout_mode = 2
+texture = ExtResource("2_187gu")
+
+[node name="Hat2" type="TextureRect" parent="TextureRect/HatContainer" unique_id=174448532]
+layout_mode = 2
+texture = ExtResource("2_187gu")
+
+[node name="Hat3" type="TextureRect" parent="TextureRect/HatContainer" unique_id=658555697]
+layout_mode = 2
+texture = ExtResource("2_187gu")
+
+[node name="Hat4" type="TextureRect" parent="TextureRect/HatContainer" unique_id=1280935945]
+layout_mode = 2
+texture = ExtResource("2_187gu")
+
+[node name="Hat5" type="TextureRect" parent="TextureRect/HatContainer" unique_id=1977613732]
+layout_mode = 2
+texture = ExtResource("2_187gu")
+
+[node name="Timer" type="RichTextLabel" parent="." unique_id=214274013]
+offset_left = 721.0
+offset_top = 262.0
+offset_right = 812.0
+offset_bottom = 332.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 45
+text = "0.0"
+
+[node name="level" type="RichTextLabel" parent="." unique_id=886786607]
+offset_left = 697.0
+offset_top = 182.0
+offset_right = 908.0
+offset_bottom = 249.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 45
+text = "Level#"

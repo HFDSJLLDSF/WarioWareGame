@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://bv273g4yg7scc"]
+
+[ext_resource type="Texture2D" uid="uid://dtaltdaj0g71k" path="res://wario6464.webp" id="1_4flbx"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_sh265"]
+
+[node name="Player" type="CharacterBody2D" unique_id=1956541950]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=707639040]
+texture = ExtResource("1_4flbx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=960303865]
+scale = Vector2(49.918396, -45.014988)
+shape = SubResource("CircleShape2D_sh265")
