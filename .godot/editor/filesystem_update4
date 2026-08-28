@@ -1,1 +1,8 @@
 res://player.tscn
+res://minigame_1.tscn
+res://player.gd
+res://Timer_Screen.gd
+res://level_scene.tscn
+res://themed_timer2.gd
+res://themed_timer.tscn
+res://Scenes/minigame_1.tscn

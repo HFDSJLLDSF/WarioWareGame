@@ -1,12 +1,16 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1787751714
+::res://::1787916391
+Game city backgrounf.jpg::CompressedTexture2D::8654065019822620006::1787831409::1787831409::1::::<><><>0<>0<>69705d5fff8850fa7b5693745eb2f951<>res://.godot/imported/Game city backgrounf.jpg-055283d83e694e8ea191f2a6d8af3e00.ctex::
 Gobal.gd::GDScript::8832568826384593290::1787741405::0::1::::<>Node<><>0<>0<><>::
 icon.svg::CompressedTexture2D::7034862784183486891::1787651196::1787651207::1::::<><><>0<>0<>6967538bccc5080f07327d75d3b6cf83<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-level_scene.tscn::PackedScene::4104022950610412006::1787750112::0::1::::<><><>0<>0<><>::uid://dku71obkreh3s::::res://Wariothattuffknuckles.jpg<>uid://d35knt7dmq845::::res://Timer_Screen.gd<>uid://djb0v5rq114cu::::res://Wario_Cap.webp
-player.tscn::PackedScene::3918117906488434734::1787750182::0::1::::<><><>0<>0<><>::
+level_scene.tscn::PackedScene::4104022950610412006::1787916391::0::1::::<><><>0<>0<><>::uid://dku71obkreh3s::::res://Wariothattuffknuckles.jpg<>uid://d35knt7dmq845::::res://Timer_Screen.gd<>uid://djb0v5rq114cu::::res://Wario_Cap.webp
+player.tscn::PackedScene::3918117906488434734::1787752763::0::1::::<><><>0<>0<><>::uid://dtaltdaj0g71k::::res://wario6464.webp<>uid://2gkrxqjmx4pl::::res://player.gd
+player.gd::GDScript::1908123806355097749::1787831985::0::1::::<>CharacterBody2D<><>0<>0<><>::
+themed_timer2.gd::GDScript::682913118831412628::1787915418::0::1::::<>Node2D<><>0<>0<><>::
+themed_timer.tscn::PackedScene::1556155192143369624::1787915237::0::1::::<><><>0<>0<><>::uid://jy2qkcds1slg::::res://themed_timer2.gd
 Screenshot 2026-08-26 at 15.32.24.png::CompressedTexture2D::8354292188953370708::1787751154::1787751154::1::::<><><>0<>0<>8868ff93f1442cd88e519c3ced3bad71<>res://.godot/imported/Screenshot 2026-08-26 at 15.32.24.png-caa55e1de74004c5e92e4d78b4cf24ae.ctex::
 super_mario__wario_2d_by_joshuat1306_dc6im1n-fullview.png::CompressedTexture2D::1290916280663504053::1787652848::1787652849::1::::<><><>0<>0<>3c66831b65661461c4de954ec0c125ef<>res://.godot/imported/super_mario__wario_2d_by_joshuat1306_dc6im1n-fullview.png-7de37bceab84f7d885bfc83965e2ff68.ctex::
-Timer_Screen.gd::GDScript::9187112438344835868::1787749288::0::1::::<>TextureRect<><>0<>0<><>::
+Timer_Screen.gd::GDScript::9187112438344835868::1787914936::0::1::::<>Node2D<><>0<>0<><>::
 TitleScreen.tscn::PackedScene::4558340495359194809::1787676328::0::1::::<><><>0<>0<><>::uid://dku71obkreh3s::::res://Wariothattuffknuckles.jpg
 wario6464.webp::CompressedTexture2D::8493552055219193950::1787751714::1787751714::1::::<><><>0<>0<>5cafea40dd161dab7ba1f97dbe494fac<>res://.godot/imported/wario6464.webp-8b1ef7b3a89471b923cf746dc4099c20.ctex::
 Wariothattuffknuckles.jpg::CompressedTexture2D::7904428154299821334::1787670788::1787670789::1::::<><><>0<>0<>e9036d1c77c01b8ec7952cf396bdc278<>res://.godot/imported/Wariothattuffknuckles.jpg-bb88781d222aeeed3aaabdef38333148.ctex::
@@ -21,5 +25,6 @@ plugin.cfg::TextFile::-1::1787750598::0::1::::<><><>0<>0<><>::
 README.md::TextFile::-1::1787750597::0::1::::<><><>0<>0<><>::
 utils.gd::GDScript::5251015809120159908::1787750598::0::1::::<>RefCounted<><>0<>0<><>::
 ::res://Scenes/::1787736067
+minigame_1.tscn::PackedScene::7171334878184636258::1787916226::0::1::::<><><>0<>0<><>::uid://dvkdglujalqug::::res://Game city backgrounf.jpg<>uid://wf2wb33l0hae::::res://themed_timer.tscn<>uid://bv273g4yg7scc::::res://player.tscn<>uid://djb0v5rq114cu::::res://Wario_Cap.webp
 title_scene.gd::GDScript::5139259350646764654::1787684339::0::1::::<>Node2D<><>0<>0<><>::
 Title_Scene.tscn::PackedScene::5426361671753440067::1787736067::0::1::::<><><>0<>0<><>::uid://cfhq36l7f2b5g::::res://Scenes/title_scene.gd<>uid://dku71obkreh3s::::res://Wariothattuffknuckles.jpg

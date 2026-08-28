@@ -1,0 +1,149 @@
+[gd_scene format=3 uid="uid://daf33qm50m76u"]
+
+[ext_resource type="PackedScene" uid="uid://wf2wb33l0hae" path="res://themed_timer.tscn" id="1_o6yob"]
+[ext_resource type="Texture2D" uid="uid://dvkdglujalqug" path="res://Game city backgrounf.jpg" id="2_5txvl"]
+[ext_resource type="Texture2D" uid="uid://djb0v5rq114cu" path="res://Wario_Cap.webp" id="3_0uv5o"]
+[ext_resource type="PackedScene" uid="uid://bv273g4yg7scc" path="res://player.tscn" id="4_ojqsy"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1fxlb"]
+size = Vector2(590, 48)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k3hmt"]
+size = Vector2(97.68441, 1.6454382)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ck0ih"]
+size = Vector2(2045, 93)
+
+[sub_resource type="Animation" id="Animation_o6yob"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(139, 107.000084)]
+}
+
+[sub_resource type="Animation" id="Animation_5txvl"]
+resource_name = "floating"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(139, 107.000084)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_0uv5o"]
+_data = {
+&"RESET": SubResource("Animation_o6yob"),
+&"floating": SubResource("Animation_5txvl")
+}
+
+[node name="Minigame_1" type="Node2D" unique_id=1584658274]
+
+[node name="Themed_Timer" parent="." unique_id=1257934287 instance=ExtResource("1_o6yob")]
+
+[node name="ScrollingBackground" type="Parallax2D" parent="." unique_id=105013548]
+scale = Vector2(1.0539243, 0.9120503)
+repeat_size = Vector2(970, 0)
+autoscroll = Vector2(100, 0)
+
+[node name="Background" type="TextureRect" parent="ScrollingBackground" unique_id=411689234]
+offset_right = 635.0
+offset_bottom = 360.0
+scale = Vector2(1.5285797, 1.9573405)
+texture = ExtResource("2_5txvl")
+
+[node name="Platform2" type="StaticBody2D" parent="." unique_id=102493426]
+position = Vector2(89, 471)
+scale = Vector2(0.5199994, 1)
+
+[node name="ColorRect" type="ColorRect" parent="Platform2" unique_id=96079523]
+offset_left = -144.0
+offset_top = -259.00003
+offset_right = -137.51917
+offset_bottom = -252.99622
+scale = Vector2(91.03761, 7.9126534)
+color = Color(0.8, 0.69411767, 0.003921569, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platform2" unique_id=672399137]
+position = Vector2(151, -235)
+shape = SubResource("RectangleShape2D_1fxlb")
+debug_color = Color(0.8, 0.69411767, 0.003921569, 1)
+
+[node name="Platform3" type="StaticBody2D" parent="." unique_id=1930250986]
+position = Vector2(-19, 143)
+scale = Vector2(0.5599992, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platform3" unique_id=918942825]
+position = Vector2(965, 197.99997)
+rotation = 3.1415925
+scale = Vector2(6.020308, -26.837648)
+shape = SubResource("RectangleShape2D_k3hmt")
+
+[node name="ColorRect" type="ColorRect" parent="Platform3" unique_id=219817765]
+offset_left = 668.0
+offset_top = 176.0
+offset_right = 1258.0
+offset_bottom = 220.0
+color = Color(0.8, 0.69411767, 0.003921569, 1)
+
+[node name="Platform4" type="StaticBody2D" parent="." unique_id=746334151]
+position = Vector2(89, 0.99998474)
+scale = Vector2(0.4831128, 1.0169067)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platform4" unique_id=1728946053]
+position = Vector2(1688.0002, 432.0002)
+rotation = 3.1415925
+scale = Vector2(6.020308, -26.837648)
+shape = SubResource("RectangleShape2D_k3hmt")
+
+[node name="ColorRect" type="ColorRect" parent="Platform4" unique_id=281756886]
+offset_left = 1393.0
+offset_top = 410.0001
+offset_right = 1982.0
+offset_bottom = 455.0001
+color = Color(0.8, 0.69411767, 0.003921569, 1)
+
+[node name="floor" type="StaticBody2D" parent="." unique_id=648323048]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="floor" unique_id=1419989376]
+position = Vector2(1024.5, 596.50006)
+shape = SubResource("RectangleShape2D_ck0ih")
+
+[node name="ColorRect" type="ColorRect" parent="floor" unique_id=721824630]
+offset_left = 2.0000002
+offset_top = 550.00006
+offset_right = 2047.0
+offset_bottom = 643.00006
+color = Color(0.8, 0.69411767, 0.003921569, 1)
+
+[node name="Hat" type="Node2D" parent="." unique_id=269426842]
+position = Vector2(-123, 40)
+
+[node name="animation" type="AnimationPlayer" parent="Hat" unique_id=1275906295]
+root_node = NodePath("../Hat")
+libraries/ = SubResource("AnimationLibrary_0uv5o")
+
+[node name="Hat" type="TextureRect" parent="Hat" unique_id=333658543]
+offset_left = 139.0
+offset_top = 107.000084
+offset_right = 983.0
+offset_bottom = 703.00006
+scale = Vector2(0.07999758, 0.07999508)
+texture = ExtResource("3_0uv5o")
+
+[node name="Player" parent="." unique_id=1956541950 instance=ExtResource("4_ojqsy")]
+position = Vector2(48, 529)
+scale = Vector2(0.04436755, 0.055808365)

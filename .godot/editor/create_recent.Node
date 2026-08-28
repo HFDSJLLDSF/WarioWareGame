@@ -1,9 +1,14 @@
-Area2D
+ColorRect
 CollisionShape2D
+StaticBody2D
+RichTextLabel
+Node2D
+AnimationPlayer
+TextureRect
+Parallax2D
+Area2D
 Sprite2D
 CharacterBody2D
-RichTextLabel
-TextureRect
 HBoxContainer
 VBoxContainer
 Button
