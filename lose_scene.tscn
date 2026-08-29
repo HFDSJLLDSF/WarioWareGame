@@ -1,0 +1,70 @@
+[gd_scene format=3 uid="uid://daqrgmij8d43l"]
+
+[ext_resource type="Texture2D" uid="uid://lu1tnppib8wq" path="res://whi.jpg" id="1_5lo34"]
+[ext_resource type="Texture2D" uid="uid://d3tfljcw5ufs0" path="res://Wariolosing.jpeg" id="2_1rcl5"]
+
+[node name="Lose_Scene" type="Node2D" unique_id=2084412169]
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=164174631]
+offset_left = 2.0
+offset_top = 2.0
+offset_right = 1148.0
+offset_bottom = 649.0
+texture = ExtResource("1_5lo34")
+
+[node name="TextureRect2" type="TextureRect" parent="." unique_id=258652853]
+offset_left = 285.0
+offset_top = 110.0
+offset_right = 865.0
+offset_bottom = 638.0
+texture = ExtResource("2_1rcl5")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=1003279749]
+offset_left = 429.0
+offset_top = 30.0
+offset_right = 976.0
+offset_bottom = 113.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0.46257907, 0.9965852, 0.73501915, 1)
+theme_override_font_sizes/normal_font_size = 54
+text = "You Lost!"
+
+[node name="RichTextLabel3" type="RichTextLabel" parent="." unique_id=1597648055]
+offset_left = 88.0
+offset_top = 24.999985
+offset_right = 436.0
+offset_bottom = 164.99998
+rotation = 0.49098855
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 47
+text = "Nooooooo!"
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="." unique_id=1002597324]
+offset_left = 61.0
+offset_top = 410.0
+offset_right = 409.0
+offset_bottom = 550.0
+rotation = 0.3971808
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 47
+text = "Nooooooo!"
+
+[node name="RichTextLabel4" type="RichTextLabel" parent="." unique_id=293030427]
+offset_left = 791.0
+offset_top = 111.0
+offset_right = 1139.0
+offset_bottom = 251.0
+rotation = -0.253054
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 47
+text = "Nooooooo!"
+
+[node name="RichTextLabel5" type="RichTextLabel" parent="." unique_id=283022219]
+offset_left = 814.0
+offset_top = 474.0
+offset_right = 1162.0
+offset_bottom = 614.0
+rotation = -0.26979402
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 47
+text = "Nooooooo!"

@@ -6,3 +6,12 @@ res://level_scene.tscn
 res://themed_timer2.gd
 res://themed_timer.tscn
 res://Scenes/minigame_1.tscn
+res://Scenes/minigame_1.gd
+res://Scenes/hat1.gd
+res://timer_screen.tscn
+res://minigame_2.tscn
+res://button_1.gd
+res://minigame_2.gd
+res://Scenes/minigame_2.tscn
+res://Done_Scene.tscn
+res://Gobal.gd

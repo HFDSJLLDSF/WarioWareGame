@@ -1,20 +1,35 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1787916391
+::res://::1788027290
+button_1.gd::GDScript::3915458761363009231::1788016230::0::1::::<>TextureButton<><>0<>0<><>::
+Done_Scene.tscn::PackedScene::2361599318990017172::1788019283::0::1::::<><><>0<>0<><>::
 Game city backgrounf.jpg::CompressedTexture2D::8654065019822620006::1787831409::1787831409::1::::<><><>0<>0<>69705d5fff8850fa7b5693745eb2f951<>res://.godot/imported/Game city backgrounf.jpg-055283d83e694e8ea191f2a6d8af3e00.ctex::
-Gobal.gd::GDScript::8832568826384593290::1787741405::0::1::::<>Node<><>0<>0<><>::
+Gobal.gd::GDScript::8832568826384593290::1788019283::0::1::::<>Node<><>0<>0<><>::
+haha-joker-laugh-black-text-white-border-sticker-7017516946947360imbcjsmrm.png::CompressedTexture2D::1714280261164565332::1788018843::1788018844::1::::<><><>0<>0<>1a72829602d2a71baf6588bfb265fecd<>res://.godot/imported/haha-joker-laugh-black-text-white-border-sticker-7017516946947360imbcjsmrm.png-7f04a86dbca183172767a14bbfedeffb.ctex::
+hahahahhah.png::CompressedTexture2D::8707251544841686545::1788018354::1788018354::1::::<><><>0<>0<>24f4c85221c51f03f8e476284ae6aa80<>res://.godot/imported/hahahahhah.png-68256006c11d5e44bf1a4ad30109df17.ctex::
 icon.svg::CompressedTexture2D::7034862784183486891::1787651196::1787651207::1::::<><><>0<>0<>6967538bccc5080f07327d75d3b6cf83<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-level_scene.tscn::PackedScene::4104022950610412006::1787916391::0::1::::<><><>0<>0<><>::uid://dku71obkreh3s::::res://Wariothattuffknuckles.jpg<>uid://d35knt7dmq845::::res://Timer_Screen.gd<>uid://djb0v5rq114cu::::res://Wario_Cap.webp
+level_scene.tscn::PackedScene::4104022950610412006::1787927468::0::1::::<><><>0<>0<><>::uid://dku71obkreh3s::::res://Wariothattuffknuckles.jpg<>uid://d35knt7dmq845::::res://Timer_Screen.gd<>uid://djb0v5rq114cu::::res://Wario_Cap.webp
+minigame_2.gd::GDScript::134003731359614031::1788019121::0::1::::<>Node2D<><>0<>0<><>::
+orangecolor.png::CompressedTexture2D::4457915848467819002::1788017718::1788017718::1::::<><><>0<>0<>c22725e0bec5468a2267d050f2de5d2f<>res://.godot/imported/orangecolor.png-49572da17845ec2a5c35bd4ce585fc97.ctex::
+player.gd::GDScript::1908123806355097749::1787917876::0::1::::<>CharacterBody2D<><>0<>0<><>::
 player.tscn::PackedScene::3918117906488434734::1787752763::0::1::::<><><>0<>0<><>::uid://dtaltdaj0g71k::::res://wario6464.webp<>uid://2gkrxqjmx4pl::::res://player.gd
-player.gd::GDScript::1908123806355097749::1787831985::0::1::::<>CharacterBody2D<><>0<>0<><>::
+lose_scene.tscn::PackedScene::7193335641876526207::1788019121::0::1::::<><><>0<>0<><>::uid://lu1tnppib8wq::::res://whi.jpg<>uid://d3tfljcw5ufs0::::res://Wariolosing.jpeg
+red.jpeg::CompressedTexture2D::7851434876261151803::1788026925::1788026925::1::::<><><>0<>0<>3a671bcfe58d8ec099e720827d093796<>res://.godot/imported/red.jpeg-86bd7099e456bdf1800789d319373be5.ctex::
+Screenshot 2026-08-26 at 15.32.24.png::CompressedTexture2D::8354292188953370708::1787751154::1787751154::1::::<><><>0<>0<>8868ff93f1442cd88e519c3ced3bad71<>res://.godot/imported/Screenshot 2026-08-26 at 15.32.24.png-caa55e1de74004c5e92e4d78b4cf24ae.ctex::
+Screenshot 2026-08-29 at 20.14.45.png::CompressedTexture2D::8548967737836291595::1788027290::1788027290::1::::<><><>0<>0<>f6e9749be44889e72ef4b1e139acbd8e<>res://.godot/imported/Screenshot 2026-08-29 at 20.14.45.png-2be180abe01955f7961367e845bcc81b.ctex::
+super_mario__wario_2d_by_joshuat1306_dc6im1n-fullview.png::CompressedTexture2D::1290916280663504053::1787652848::1787652849::1::::<><><>0<>0<>3c66831b65661461c4de954ec0c125ef<>res://.godot/imported/super_mario__wario_2d_by_joshuat1306_dc6im1n-fullview.png-7de37bceab84f7d885bfc83965e2ff68.ctex::
 themed_timer2.gd::GDScript::682913118831412628::1787915418::0::1::::<>Node2D<><>0<>0<><>::
 themed_timer.tscn::PackedScene::1556155192143369624::1787915237::0::1::::<><><>0<>0<><>::uid://jy2qkcds1slg::::res://themed_timer2.gd
-Screenshot 2026-08-26 at 15.32.24.png::CompressedTexture2D::8354292188953370708::1787751154::1787751154::1::::<><><>0<>0<>8868ff93f1442cd88e519c3ced3bad71<>res://.godot/imported/Screenshot 2026-08-26 at 15.32.24.png-caa55e1de74004c5e92e4d78b4cf24ae.ctex::
-super_mario__wario_2d_by_joshuat1306_dc6im1n-fullview.png::CompressedTexture2D::1290916280663504053::1787652848::1787652849::1::::<><><>0<>0<>3c66831b65661461c4de954ec0c125ef<>res://.godot/imported/super_mario__wario_2d_by_joshuat1306_dc6im1n-fullview.png-7de37bceab84f7d885bfc83965e2ff68.ctex::
-Timer_Screen.gd::GDScript::9187112438344835868::1787914936::0::1::::<>Node2D<><>0<>0<><>::
+Timer_Screen.gd::GDScript::9187112438344835868::1788026417::0::1::::<>Node2D<><>0<>0<><>::
+timer_screen.tscn::PackedScene::244949607946592114::1787927590::0::1::::<><><>0<>0<><>::uid://d35knt7dmq845::::res://Timer_Screen.gd<>uid://dku71obkreh3s::::res://Wariothattuffknuckles.jpg<>uid://djb0v5rq114cu::::res://Wario_Cap.webp
 TitleScreen.tscn::PackedScene::4558340495359194809::1787676328::0::1::::<><><>0<>0<><>::uid://dku71obkreh3s::::res://Wariothattuffknuckles.jpg
 wario6464.webp::CompressedTexture2D::8493552055219193950::1787751714::1787751714::1::::<><><>0<>0<>5cafea40dd161dab7ba1f97dbe494fac<>res://.godot/imported/wario6464.webp-8b1ef7b3a89471b923cf746dc4099c20.ctex::
+wario.png::CompressedTexture2D::5859953214399733559::1788026835::1788026836::1::::<><><>0<>0<>ebd1c51cf1987608ba6ba5a35dc1849f<>res://.godot/imported/wario.png-2cca6ce5f7c8bbf684c9957d51199b1f.ctex::
+Wariolosing.jpeg::CompressedTexture2D::9164096555808353873::1788017663::1788017664::1::::<><><>0<>0<>5025cb5ea010ff94aec37a279fb303c1<>res://.godot/imported/Wariolosing.jpeg-cf48cf61197b6c8feffb62873487e969.ctex::
 Wariothattuffknuckles.jpg::CompressedTexture2D::7904428154299821334::1787670788::1787670789::1::::<><><>0<>0<>e9036d1c77c01b8ec7952cf396bdc278<>res://.godot/imported/Wariothattuffknuckles.jpg-bb88781d222aeeed3aaabdef38333148.ctex::
+wariowins.jpg::CompressedTexture2D::1565670915407130409::1788026690::1788026690::1::::<><><>0<>0<>cac44662fa3ae17bec719463efb6bf7f<>res://.godot/imported/wariowins.jpg-e81e3f1e1b43a59c44935266b5874d7e.ctex::
 Wario_Cap.webp::CompressedTexture2D::7794583050791765244::1787736794::1787736794::1::::<><><>0<>0<>1c9af029fa46df3a6f47c1271e688cc6<>res://.godot/imported/Wario_Cap.webp-074c936d400a382364b6066e747cfb6b.ctex::
+Wario_emblem.png::CompressedTexture2D::3348241545111130567::1788027204::1788027204::0::::<><><>0<>0<>287fd92d684c1175df90d40d57288f9b<>::
+whi.jpg::CompressedTexture2D::814978113663591208::1788017863::1788017863::1::::<><><>0<>0<>0d6da04b2e43d6f732bbd8b5537f281d<>res://.godot/imported/whi.jpg-d7966b636f9e0be84972939e3c9292db.ctex::
 ::res://addons/::1787750597
 ::res://addons/godot_super-wakatime/::1787750598
 api_key_prompt.tscn::PackedScene::3919262858641749045::1787750597::0::1::::<><><>0<>0<><>::
@@ -24,7 +39,10 @@ godot_super-wakatime.gd::GDScript::6277149880384411866::1787750598::0::1::::<>Ed
 plugin.cfg::TextFile::-1::1787750598::0::1::::<><><>0<>0<><>::
 README.md::TextFile::-1::1787750597::0::1::::<><><>0<>0<><>::
 utils.gd::GDScript::5251015809120159908::1787750598::0::1::::<>RefCounted<><>0<>0<><>::
-::res://Scenes/::1787736067
-minigame_1.tscn::PackedScene::7171334878184636258::1787916226::0::1::::<><><>0<>0<><>::uid://dvkdglujalqug::::res://Game city backgrounf.jpg<>uid://wf2wb33l0hae::::res://themed_timer.tscn<>uid://bv273g4yg7scc::::res://player.tscn<>uid://djb0v5rq114cu::::res://Wario_Cap.webp
+::res://Scenes/::1788026575
+hat1.gd::GDScript::3956614915904606858::1787927082::0::1::::<>Node2D<><>0<>0<><>::
+minigame_1.gd::GDScript::5915996818618155445::1788026575::0::1::::<>Node2D<><>0<>0<><>::
+minigame_1.tscn::PackedScene::7171334878184636258::1788026575::0::1::::<><><>0<>0<><>::uid://cqj0urmyk6ain::::res://Scenes/minigame_1.gd<>uid://wf2wb33l0hae::::res://themed_timer.tscn<>uid://dvkdglujalqug::::res://Game city backgrounf.jpg<>uid://djb0v5rq114cu::::res://Wario_Cap.webp<>uid://bwmu4tiu2p7r7::::res://Scenes/hat1.gd<>uid://bv273g4yg7scc::::res://player.tscn
+minigame_2.tscn::PackedScene::7401957045665038026::1788017357::0::1::::<><><>0<>0<><>::uid://b56a0j4or1mh::::res://minigame_2.gd<>uid://dvkdglujalqug::::res://Game city backgrounf.jpg<>uid://wf2wb33l0hae::::res://themed_timer.tscn<>uid://djb0v5rq114cu::::res://Wario_Cap.webp<>uid://bv1xbfajjlj6f::::res://button_1.gd
 title_scene.gd::GDScript::5139259350646764654::1787684339::0::1::::<>Node2D<><>0<>0<><>::
 Title_Scene.tscn::PackedScene::5426361671753440067::1787736067::0::1::::<><><>0<>0<><>::uid://cfhq36l7f2b5g::::res://Scenes/title_scene.gd<>uid://dku71obkreh3s::::res://Wariothattuffknuckles.jpg
