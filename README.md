@@ -23,5 +23,6 @@ The player can move Wario around with the arrow keys on a keyboard and click on 
 
 <img width="2560" height="1600" alt="Minigame 2" src="https://github.com/user-attachments/assets/ba71642d-37b7-4966-a574-b2a066b845f5" />
 
+**Game link:**
 **https://gabe34324.itch.io/warioalorious**
 
