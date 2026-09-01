@@ -10,6 +10,8 @@ The player can move Wario around with the arrow keys (<-)/(->) and space bar on 
 **Winner screen:**
 
 <img width="402" height="226" alt="Image" src="https://github.com/user-attachments/assets/6222ef4b-4aab-4154-8046-b287e2cb8827" />
+
+
 **Loser screen:**
 
 <img width="2560" height="1600" alt="Screenshot 2026-09-01 at 15 34 42" src="https://github.com/user-attachments/assets/7ef0146f-a664-49dd-8f22-c35a51708a95" />
@@ -18,13 +20,16 @@ The player can move Wario around with the arrow keys (<-)/(->) and space bar on 
 
 <img width="2560" height="1600" alt="Screenshot 2026-09-01 at 15 21 55" src="https://github.com/user-attachments/assets/53dda875-4705-4f63-87b1-29c7c0663b65" />
 
+
 **Minigame 1:**
 
 <img width="2560" height="1600" alt="Minigame 1" src="https://github.com/user-attachments/assets/c02bb454-9a5e-4989-94c7-1f84927c4529" />
 
+
 **Minigame 2:**
 
 <img width="2560" height="1600" alt="Minigame 2" src="https://github.com/user-attachments/assets/ba71642d-37b7-4966-a574-b2a066b845f5" />
+
 
 **Game link:**
 **https://gabe34324.itch.io/warioalorious**
