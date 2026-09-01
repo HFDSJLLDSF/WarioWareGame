@@ -10,6 +10,9 @@ The player can move Wario around with the arrow keys (<-)/(->) and space bar on 
 **Winner screen:**
 
 <img width="402" height="226" alt="Image" src="https://github.com/user-attachments/assets/6222ef4b-4aab-4154-8046-b287e2cb8827" />
+**Loser screen:**
+
+<img width="2560" height="1600" alt="Screenshot 2026-09-01 at 15 34 42" src="https://github.com/user-attachments/assets/7ef0146f-a664-49dd-8f22-c35a51708a95" />
 
 **Lives:**
 
