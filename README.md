@@ -1,4 +1,4 @@
-**Warioalorious**
+# **Warioalorious**
 
 A game for Nintendo® lovers and people who like a little challenge.
 
